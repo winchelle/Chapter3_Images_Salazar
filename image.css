@@ -1,0 +1,43 @@
+body { /*Background of the website*/
+    background-image: url(paper.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 { /*title position and style*/
+    color: rgb(249, 238, 226);
+    font-style: normal;
+    font-size: 50px;
+    float: center;
+    position: absolute;
+    top: 5%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+h2 { /*title of the image style*/
+    color: beige;
+}
+.pers { /*1st pic position*/
+    float: left;
+    position: absolute;
+    top: 65%;
+    left: 17%; 
+    transform: translate(-50%, -50%);
+}
+.secs { /*2nd pic position*/
+    float: center;
+    position: absolute;
+    top: 65%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.terd { /*3rd pic position*/
+    float: right;
+    position: absolute;
+    top: 65%;
+    left: 83%; 
+    transform: translate(-50%, -50%);
+}
+
